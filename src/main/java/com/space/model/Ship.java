@@ -10,7 +10,6 @@ import java.util.Date;
 public class Ship {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @NotNull
     private Long id;
 
     private String name; //Название корабля (до 50 знаков включительно)
